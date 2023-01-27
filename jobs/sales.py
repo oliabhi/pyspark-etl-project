@@ -18,10 +18,38 @@ sys.path.insert(1, project_dir)
 from classes import class_pyspark
 
 
-def main():
-    class_pyspark.Sparkclass(config= {"myvar":"spark initiated"}).sparkStart()
+def main(project_dir:str) -> None:
+
+    """
+    STARTS a spark job
+    """
+    #class_pyspark.Sparkclass(config= {"myvar":"spark initiated"}).sparkStart()
+    # print(project_dir)
+
+    openfile(f"{project_dir}/json/sales.json")
+
+
+def openfile(filepath: str) -> dict:
+    '''
+
+    conditional : input variable should be STRING and the input filepath should exists
+                    else no print --> no operation
+
+    '''
+    print(filepath)
+
+    def openJSON(filepath):
+        isinstance(filepath,str) and os.path.exists(filepath):
+        with open(filepath, r) as f:
+            # print()
+            data = json.load
+        return data
+    print(openJSON(filepath))
+
+
+
 
 if __name__ == '__main__':
-    main()
+    main(project_dir)
 
 
