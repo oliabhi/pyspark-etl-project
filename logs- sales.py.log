@@ -1,0 +1,829 @@
+2023-01-27 13:56:20,580 - LINE:163 - py4j.java_gateway - DEBUG - deprecated - GatewayClient.address is deprecated and will be removed in version 1.0. Use GatewayParameters instead.
+2023-01-27 13:56:20,582 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: A
+0431cd5a9eb152d91856a6577fea6e20f227f0c1e42e9e220d8c04541cdb5430
+
+2023-01-27 13:56:20,592 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,592 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: j
+i
+rj
+org.apache.spark.SparkConf
+e
+
+2023-01-27 13:56:20,593 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,594 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: j
+i
+rj
+org.apache.spark.api.java.*
+e
+
+2023-01-27 13:56:20,594 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,594 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: j
+i
+rj
+org.apache.spark.api.python.*
+e
+
+2023-01-27 13:56:20,594 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,595 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: j
+i
+rj
+org.apache.spark.ml.python.*
+e
+
+2023-01-27 13:56:20,595 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,595 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: j
+i
+rj
+org.apache.spark.mllib.api.python.*
+e
+
+2023-01-27 13:56:20,595 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,595 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: j
+i
+rj
+org.apache.spark.resource.*
+e
+
+2023-01-27 13:56:20,595 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,595 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: j
+i
+rj
+org.apache.spark.sql.*
+e
+
+2023-01-27 13:56:20,596 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,596 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: j
+i
+rj
+org.apache.spark.sql.api.python.*
+e
+
+2023-01-27 13:56:20,596 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,596 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: j
+i
+rj
+org.apache.spark.sql.hive.*
+e
+
+2023-01-27 13:56:20,596 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,596 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: j
+i
+rj
+scala.Tuple2
+e
+
+2023-01-27 13:56:20,597 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:20,597 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+SparkConf
+rj
+e
+
+2023-01-27 13:56:20,598 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.SparkConf
+2023-01-27 13:56:20,599 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: i
+org.apache.spark.SparkConf
+bTrue
+e
+
+2023-01-27 13:56:20,604 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro0
+2023-01-27 13:56:20,605 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+set
+sspark.app.name
+ssales
+e
+
+2023-01-27 13:56:20,608 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro1
+2023-01-27 13:56:20,608 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+set
+sspark.master
+slocal[*]
+e
+
+2023-01-27 13:56:20,609 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro2
+2023-01-27 13:56:20,609 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+contains
+sspark.serializer.objectStreamReset
+e
+
+2023-01-27 13:56:20,611 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ybfalse
+2023-01-27 13:56:20,612 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+set
+sspark.serializer.objectStreamReset
+s100
+e
+
+2023-01-27 13:56:20,612 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro3
+2023-01-27 13:56:20,612 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+contains
+sspark.rdd.compress
+e
+
+2023-01-27 13:56:20,613 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ybfalse
+2023-01-27 13:56:20,613 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+set
+sspark.rdd.compress
+sTrue
+e
+
+2023-01-27 13:56:20,613 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro4
+2023-01-27 13:56:20,613 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+contains
+sspark.master
+e
+
+2023-01-27 13:56:20,614 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ybtrue
+2023-01-27 13:56:20,614 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+2023-01-27 13:56:20,614 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ybtrue
+2023-01-27 13:56:20,614 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+contains
+sspark.master
+e
+
+2023-01-27 13:56:20,615 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ybtrue
+2023-01-27 13:56:20,615 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+get
+sspark.master
+e
+
+2023-01-27 13:56:20,617 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yslocal[*]
+2023-01-27 13:56:20,617 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+2023-01-27 13:56:20,617 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ybtrue
+2023-01-27 13:56:20,617 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+get
+sspark.app.name
+e
+
+2023-01-27 13:56:20,617 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yssales
+2023-01-27 13:56:20,618 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+contains
+sspark.home
+e
+
+2023-01-27 13:56:20,618 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ybfalse
+2023-01-27 13:56:20,618 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o0
+getAll
+e
+
+2023-01-27 13:56:20,619 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yto5
+2023-01-27 13:56:20,619 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+e
+o5
+e
+
+2023-01-27 13:56:20,619 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yi8
+2023-01-27 13:56:20,619 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+g
+o5
+i0
+e
+
+2023-01-27 13:56:20,620 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro6
+2023-01-27 13:56:20,620 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o6
+_1
+e
+
+2023-01-27 13:56:20,620 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysspark.app.name
+2023-01-27 13:56:20,621 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o6
+_2
+e
+
+2023-01-27 13:56:20,621 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yssales
+2023-01-27 13:56:20,621 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+e
+o5
+e
+
+2023-01-27 13:56:20,621 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yi8
+2023-01-27 13:56:20,621 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+g
+o5
+i1
+e
+
+2023-01-27 13:56:20,622 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro7
+2023-01-27 13:56:20,622 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o7
+_1
+e
+
+2023-01-27 13:56:20,622 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysspark.app.submitTime
+2023-01-27 13:56:20,622 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o7
+_2
+e
+
+2023-01-27 13:56:20,622 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ys1674807980486
+2023-01-27 13:56:20,622 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+e
+o5
+e
+
+2023-01-27 13:56:20,623 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yi8
+2023-01-27 13:56:20,623 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+g
+o5
+i2
+e
+
+2023-01-27 13:56:20,623 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro8
+2023-01-27 13:56:20,623 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o8
+_1
+e
+
+2023-01-27 13:56:20,623 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysspark.rdd.compress
+2023-01-27 13:56:20,623 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o8
+_2
+e
+
+2023-01-27 13:56:20,624 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysTrue
+2023-01-27 13:56:20,624 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+e
+o5
+e
+
+2023-01-27 13:56:20,624 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yi8
+2023-01-27 13:56:20,624 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+g
+o5
+i3
+e
+
+2023-01-27 13:56:20,625 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro9
+2023-01-27 13:56:20,625 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o9
+_1
+e
+
+2023-01-27 13:56:20,625 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysspark.serializer.objectStreamReset
+2023-01-27 13:56:20,625 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o9
+_2
+e
+
+2023-01-27 13:56:20,625 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ys100
+2023-01-27 13:56:20,625 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+e
+o5
+e
+
+2023-01-27 13:56:20,625 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yi8
+2023-01-27 13:56:20,626 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+g
+o5
+i4
+e
+
+2023-01-27 13:56:20,626 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro10
+2023-01-27 13:56:20,626 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o10
+_1
+e
+
+2023-01-27 13:56:20,626 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysspark.master
+2023-01-27 13:56:20,627 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o10
+_2
+e
+
+2023-01-27 13:56:20,627 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yslocal[*]
+2023-01-27 13:56:20,627 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+e
+o5
+e
+
+2023-01-27 13:56:20,628 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yi8
+2023-01-27 13:56:20,628 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+g
+o5
+i5
+e
+
+2023-01-27 13:56:20,628 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro11
+2023-01-27 13:56:20,628 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o11
+_1
+e
+
+2023-01-27 13:56:20,629 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysspark.submit.pyFiles
+2023-01-27 13:56:20,629 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o11
+_2
+e
+
+2023-01-27 13:56:20,629 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ys
+2023-01-27 13:56:20,629 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+e
+o5
+e
+
+2023-01-27 13:56:20,629 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yi8
+2023-01-27 13:56:20,629 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+g
+o5
+i6
+e
+
+2023-01-27 13:56:20,630 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro12
+2023-01-27 13:56:20,630 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o12
+_1
+e
+
+2023-01-27 13:56:20,630 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysspark.submit.deployMode
+2023-01-27 13:56:20,630 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o12
+_2
+e
+
+2023-01-27 13:56:20,630 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysclient
+2023-01-27 13:56:20,631 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+e
+o5
+e
+
+2023-01-27 13:56:20,631 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yi8
+2023-01-27 13:56:20,631 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+g
+o5
+i7
+e
+
+2023-01-27 13:56:20,631 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro13
+2023-01-27 13:56:20,631 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o13
+_1
+e
+
+2023-01-27 13:56:20,631 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysspark.ui.showConsoleProgress
+2023-01-27 13:56:20,631 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o13
+_2
+e
+
+2023-01-27 13:56:20,632 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ystrue
+2023-01-27 13:56:20,632 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: a
+e
+o5
+e
+
+2023-01-27 13:56:20,632 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yi8
+2023-01-27 13:56:20,632 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+JavaSparkContext
+rj
+e
+
+2023-01-27 13:56:20,640 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.api.java.JavaSparkContext
+2023-01-27 13:56:20,640 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: i
+org.apache.spark.api.java.JavaSparkContext
+ro0
+e
+
+2023-01-27 13:56:21,591 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: A
+0431cd5a9eb152d91856a6577fea6e20f227f0c1e42e9e220d8c04541cdb5430
+
+2023-01-27 13:56:21,592 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:21,592 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: m
+d
+o1
+e
+
+2023-01-27 13:56:21,592 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:21,592 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: m
+d
+o2
+e
+
+2023-01-27 13:56:21,592 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:21,593 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: m
+d
+o3
+e
+
+2023-01-27 13:56:21,593 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:21,593 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: m
+d
+o4
+e
+
+2023-01-27 13:56:21,593 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:21,593 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: m
+d
+o5
+e
+
+2023-01-27 13:56:21,593 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:22,171 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro14
+2023-01-27 13:56:22,172 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o14
+sc
+e
+
+2023-01-27 13:56:22,175 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro15
+2023-01-27 13:56:22,175 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o15
+conf
+e
+
+2023-01-27 13:56:22,184 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro16
+2023-01-27 13:56:22,190 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+PythonAccumulatorV2
+rj
+e
+
+2023-01-27 13:56:22,192 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.api.python.PythonAccumulatorV2
+2023-01-27 13:56:22,193 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: i
+org.apache.spark.api.python.PythonAccumulatorV2
+s127.0.0.1
+i53222
+s0431cd5a9eb152d91856a6577fea6e20f227f0c1e42e9e220d8c04541cdb5430
+e
+
+2023-01-27 13:56:22,194 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro17
+2023-01-27 13:56:22,194 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o14
+sc
+e
+
+2023-01-27 13:56:22,194 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro18
+2023-01-27 13:56:22,194 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o18
+register
+ro17
+e
+
+2023-01-27 13:56:22,198 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:22,198 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-01-27 13:56:22,199 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-01-27 13:56:22,200 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+e
+
+2023-01-27 13:56:22,200 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ym
+2023-01-27 13:56:22,200 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+ro14
+e
+
+2023-01-27 13:56:22,202 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ybfalse
+2023-01-27 13:56:22,202 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-01-27 13:56:22,203 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-01-27 13:56:22,203 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+e
+
+2023-01-27 13:56:22,203 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ym
+2023-01-27 13:56:22,203 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+ro14
+e
+
+2023-01-27 13:56:22,204 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yL15
+2023-01-27 13:56:22,205 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-01-27 13:56:22,205 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-01-27 13:56:22,205 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+e
+
+2023-01-27 13:56:22,206 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ym
+2023-01-27 13:56:22,206 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+ro14
+e
+
+2023-01-27 13:56:22,206 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yi65536
+2023-01-27 13:56:22,206 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org
+rj
+e
+
+2023-01-27 13:56:22,207 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,208 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-01-27 13:56:22,208 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,208 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-01-27 13:56:22,208 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,209 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2023-01-27 13:56:22,209 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.SparkFiles
+2023-01-27 13:56:22,209 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2023-01-27 13:56:22,209 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ym
+2023-01-27 13:56:22,209 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2023-01-27 13:56:22,211 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysC:\\Users\\abhis\\AppData\\Local\\Temp\\spark-dcfa29af-d546-48a6-9af9-d2ddb06d20ad\\userFiles-6fbb7077-55b3-4348-bc7e-c5020315e805
+2023-01-27 13:56:22,211 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o16
+get
+sspark.submit.pyFiles
+s
+e
+
+2023-01-27 13:56:22,211 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ys
+2023-01-27 13:56:22,211 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org
+rj
+e
+
+2023-01-27 13:56:22,212 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,213 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-01-27 13:56:22,213 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,213 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-01-27 13:56:22,213 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,214 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-01-27 13:56:22,214 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,214 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-01-27 13:56:22,216 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.util.Utils
+2023-01-27 13:56:22,216 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+m
+org.apache.spark.util.Utils
+getLocalDir
+e
+
+2023-01-27 13:56:22,219 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ym
+2023-01-27 13:56:22,220 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o14
+sc
+e
+
+2023-01-27 13:56:22,220 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro19
+2023-01-27 13:56:22,220 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o19
+conf
+e
+
+2023-01-27 13:56:22,220 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro20
+2023-01-27 13:56:22,220 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+z:org.apache.spark.util.Utils
+getLocalDir
+ro20
+e
+
+2023-01-27 13:56:22,221 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysC:\\Users\\abhis\\AppData\\Local\\Temp\\spark-dcfa29af-d546-48a6-9af9-d2ddb06d20ad
+2023-01-27 13:56:22,221 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org
+rj
+e
+
+2023-01-27 13:56:22,222 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,222 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-01-27 13:56:22,222 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,222 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-01-27 13:56:22,223 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,223 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-01-27 13:56:22,223 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yp
+2023-01-27 13:56:22,223 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-01-27 13:56:22,223 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.util.Utils
+2023-01-27 13:56:22,223 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+m
+org.apache.spark.util.Utils
+createTempDir
+e
+
+2023-01-27 13:56:22,224 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ym
+2023-01-27 13:56:22,224 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+z:org.apache.spark.util.Utils
+createTempDir
+sC:\\Users\\abhis\\AppData\\Local\\Temp\\spark-dcfa29af-d546-48a6-9af9-d2ddb06d20ad
+spyspark
+e
+
+2023-01-27 13:56:22,226 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro21
+2023-01-27 13:56:22,227 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o21
+getAbsolutePath
+e
+
+2023-01-27 13:56:22,227 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysC:\\Users\\abhis\\AppData\\Local\\Temp\\spark-dcfa29af-d546-48a6-9af9-d2ddb06d20ad\\pyspark-d7f06205-1005-49e0-91d7-41de5840daf6
+2023-01-27 13:56:22,228 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o16
+get
+sspark.python.profile
+sfalse
+e
+
+2023-01-27 13:56:22,228 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ysfalse
+2023-01-27 13:56:22,228 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+SparkSession
+rj
+e
+
+2023-01-27 13:56:22,250 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.sql.SparkSession
+2023-01-27 13:56:22,250 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+2023-01-27 13:56:22,277 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ym
+2023-01-27 13:56:22,277 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+z:org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+2023-01-27 13:56:22,278 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro22
+2023-01-27 13:56:22,279 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o22
+isDefined
+e
+
+2023-01-27 13:56:22,280 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ybfalse
+2023-01-27 13:56:22,280 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+SparkSession
+rj
+e
+
+2023-01-27 13:56:22,282 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.sql.SparkSession
+2023-01-27 13:56:22,282 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o14
+sc
+e
+
+2023-01-27 13:56:22,282 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro23
+2023-01-27 13:56:22,282 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: i
+java.util.HashMap
+e
+
+2023-01-27 13:56:22,283 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yao24
+2023-01-27 13:56:22,283 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o24
+put
+sspark.app.name
+ssales
+e
+
+2023-01-27 13:56:22,284 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yn
+2023-01-27 13:56:22,285 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+o24
+put
+sspark.master
+slocal[*]
+e
+
+2023-01-27 13:56:22,285 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yn
+2023-01-27 13:56:22,285 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: i
+org.apache.spark.sql.SparkSession
+ro23
+ro24
+e
+
+2023-01-27 13:56:22,362 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yro25
+2023-01-27 13:56:22,362 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+SparkSession
+rj
+e
+
+2023-01-27 13:56:22,364 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.sql.SparkSession
+2023-01-27 13:56:22,364 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setDefaultSession
+e
+
+2023-01-27 13:56:22,365 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ym
+2023-01-27 13:56:22,365 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+z:org.apache.spark.sql.SparkSession
+setDefaultSession
+ro25
+e
+
+2023-01-27 13:56:22,366 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:22,366 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+u
+SparkSession
+rj
+e
+
+2023-01-27 13:56:22,367 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ycorg.apache.spark.sql.SparkSession
+2023-01-27 13:56:22,367 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setActiveSession
+e
+
+2023-01-27 13:56:22,368 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !ym
+2023-01-27 13:56:22,368 - LINE:501 - py4j.clientserver - DEBUG - send_command - Command to send: c
+z:org.apache.spark.sql.SparkSession
+setActiveSession
+ro25
+e
+
+2023-01-27 13:56:22,368 - LINE:512 - py4j.clientserver - DEBUG - send_command - Answer received: !yv
+2023-01-27 13:56:22,374 - LINE:543 - py4j.clientserver - INFO - close - Closing down clientserver connection

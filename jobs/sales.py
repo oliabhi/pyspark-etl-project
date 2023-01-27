@@ -11,7 +11,7 @@ LOG_FILE =f"{project_dir}/logs- {os.path.basename(__file__)}.log"
 print(LOG_FILE)
 LOG_FORMAT = f"%(asctime)s - LINE:%(lineno)d - %(name)s - %(levelname)s - %(funcName)s - %(message)s"
 logging.basicConfig(filename=LOG_FILE, level = logging.DEBUG , format = LOG_FORMAT)
-logger = logging.getLogger('py4j')
+#logger = logging.getLogger('py4j')
 
 sys.path.insert(1, project_dir)
 # print(sys.path)
@@ -26,25 +26,34 @@ def main(project_dir:str) -> None:
     #class_pyspark.Sparkclass(config= {"myvar":"spark initiated"}).sparkStart()
     # print(project_dir)
 
-    openfile(f"{project_dir}/json/sales.json")
+    config = openfile(f"{project_dir}/json/sales.json")
+    sparkStart(config)
 
 
 def openfile(filepath: str) -> dict:
     '''
-
     conditional : input variable should be STRING and the input filepath should exists
                     else no print --> no operation
+    '''
 
     '''
-    print(filepath)
+    Dedicated file opener for JSON
+    '''
 
-    def openJSON(filepath):
-        isinstance(filepath,str) and os.path.exists(filepath):
-        with open(filepath, r) as f:
-            # print()
-            data = json.load
+    def openJSON( filepath:str ) -> dict: 
+        if isinstance(filepath,str) and os.path.exists(filepath):
+            with open(filepath, "r") as f:
+                # print()
+                data = json.load(f)
         return data
-    print(openJSON(filepath))
+    return (openJSON(filepath))
+
+
+def sparkStart(config:dict) -> SparkSession:
+    if isinstance(config, dict):
+        # print(config)
+        class_pyspark.Sparkclass(conf={}).sparkStart(config)
+
 
 
 
