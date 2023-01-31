@@ -18,8 +18,8 @@ from pyspark import SparkContext
 
 class Sparkclass:
 
-    def __init__(self, conf):
-        self.conf = conf
+    def __init__(self, config):
+        self.config = config
         # self.config = config
         # self.myvar  = "hello spark initiated"
 
@@ -45,9 +45,43 @@ class Sparkclass:
         def setLogging(spark: SparkSession, log_level: Optional[str] = None) -> None:
             spark.sparkContext.setLogLevel(log_level) if log_level else None
 
-        def getLoggng(spark: SparkSession):
+        def getSettings(spark: SparkSession) -> None:
             pass
         spark = createSession(MASTER, APP_NAME)
         getSettings(spark)
 
         return (spark)
+
+    def importData(self,spark:SparkSession, datapath:str, pattern:Optional[str]=None) -> DataFrame:
+        #print(spark, datapath, pattern)
+
+            def fileOrDirectory(datapath:str) -> str:
+                if isinstance(datapath,str) and os.path.exists(datapath):
+                    if os.path.isdir(datapath):
+                        return "dir"
+                    elif os.path.isfile(datapath):
+                        return "file"
+
+            def openDirectory(datapath:str, pattern:Optional[str] = None) -> list:
+                if isinstance(datapath, str) and os.path.exists(datapath):
+                    Sparkclass(self.config).listDirectory(datapath)
+
+
+            def openFile(datapath:str):
+                if isinstance(datapath, str) and os.path.exists(datapath):
+                    pass
+
+
+            pathType =fileOrDirectory(datapath)
+            openDirectory(datapath) if pathtype == "dir" else None
+
+
+    def listDirectory(self,directory:str) -> list:
+        def recursiveFilelist(directory):
+            if os.path.exists(directory):
+                filelist = []
+                for dirpath, dirname,filename in os.walk(directory):
+                    print(dirpath,dirname,filename)
+
+        recursiveFilelist(directory)
+
